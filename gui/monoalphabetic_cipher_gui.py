@@ -36,7 +36,7 @@ def monoalphabetic_cipher_frame(tabview, text_var_mono, key_generate_mono, ciphe
     cipher_entry_mono.place(relx=0.3, rely=0.6, anchor=tkinter.CENTER)
     # create a decrypt button
     button = customtkinter.CTkButton(master=tabview.tab("Monoalphabetic-Cipher"), text="Decrypt",
-                                     command=lambda: button_pressed_dencrypt(cipher_entry_mono, key_decrypt_label,
+                                     command=lambda: button_pressed_dencrypt(cipher_entry_mono, key_label,
                                                                              cipher_var_mono))
     button.place(relx=0.7, rely=0.6, anchor=tkinter.CENTER)
     # create a label for key
