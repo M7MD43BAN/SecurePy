@@ -1,7 +1,7 @@
-import encryption
+from playfair_cipher.encryption import playfair_encryption
 
 
 def playfair_decryption(key, message):
-    plaintext = encryption.playfair_encryption(key, message, -1)
+    plaintext = playfair_encryption(key, message, inc=-1)
 
     return plaintext
